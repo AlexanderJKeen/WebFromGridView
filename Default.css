@@ -1,0 +1,180 @@
+﻿body {
+    align-content: center;
+    justify-content: center;
+    background-image: url('Image/sketchbook.jpg');
+    font-family: 'Times New Roman';
+    display: flex
+}
+
+
+
+#OverviewHeading {
+    margin-left: 500px;
+    font-family: 'Times New Roman';
+    padding: 0;
+}
+
+#DetailsHeading {
+    margin-left: 210px;
+    font-family: 'Times New Roman';
+}
+
+
+
+#searchBar {
+    align-content: flex-start;
+    margin-bottom: 2px;
+}
+
+.MyLinkButtons {
+    cursor: pointer;
+    background-color: #17a2b8;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    padding: 7px;
+}
+
+
+
+#companyName {
+    height: 25px;
+    border: 1px solid black;
+}
+
+#btnSearch {
+    cursor: pointer;
+    height: 35px;
+    width: 70px;
+    background-color: #17a2b8;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    border: 1px solid black;
+}
+
+
+
+.odd :hover {
+    background-color: #ffffff;
+}
+
+.even :hover {
+    background-color: #ffffff;
+}
+
+#backButton {
+    height: 35px;
+    width: 170px;
+    background-color: #17a2b8;
+    align-content: flex-start;
+    margin-bottom: 2px;
+    cursor: pointer;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    border: 1px solid black;
+}
+
+#urlButton {
+    border-radius: .8rem;
+    border: 1px solid black;
+    background-color: #17a2b8;
+}
+
+div#Container {
+    text-align: center;
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+#overviewGridView {
+    text-align: center;
+    width: 1300px;
+    height: 780px;
+    padding: 0;
+    font-size: 13px;
+}
+
+
+
+#detailsGridView {
+    text-align: center;
+    width: 700px;
+}
+
+
+
+.proposalId {
+    width: 55px;
+}
+
+td.CompanyName {
+    width: 240px;
+}
+
+.customerPostcode {
+    width: 50px;
+}
+
+.newconns {
+    width: 60px;
+}
+
+
+
+.migrations {
+    width: 60px;
+}
+
+.ports {
+    width: 60px;
+}
+
+.upgrades {
+    width: 60px;
+}
+
+.cashback {
+    width: 60px;
+}
+
+.equipSubsidy {
+    width: 90px;
+}
+
+.subsidyDesc {
+    width: 60px;
+}
+
+.TotalSubsidy {
+    width: 60px;
+}
+
+.Url {
+    width: 90px;
+}
+
+    .Url input {
+        width: 82px;
+        font-size: 12px;
+        cursor: pointer;
+    }
+
+
+
+.commEach {
+    width: 60px;
+}
+
+
+
+.itemId {
+    width: 60px;
+}
+
+
+
+.itemName {
+    width: 300px;
+}
